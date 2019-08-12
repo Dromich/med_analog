@@ -2,7 +2,9 @@
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="ru">
+<!--<![endif]-->
 
 <head>
 
@@ -21,7 +23,7 @@
 
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="libs/animate/animate.css">
-	
+
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
@@ -36,14 +38,83 @@
 		<div class="row">
 			<div class="col-md-3 logo_top">
 				<a href="/">
-				<img src="img/logo.png" alt="logo" title="Logo"></a>
+					<img src="img/logo.png" alt="logo" title="Logo"></a>
 			</div>
-			<div class="col-md-7"></div>
-			<div class="col-md-2"></div>
+			<div class="col-md-7 top_menu">
+				<a href="#" class="top_menu_items">Препараты от..</a>
+				<a href="#" class="top_menu_items">Медицинские учреждения </a>
+				<a href="#" class="top_menu_items">Вопросы и ответы</a>
+			</div>
+			<div class="col-md-2 login_top_btn">
+				<img src="img/login.png" alt="login" title="login">
+			</div>
+			<div class="col-md-12 search_top">
+				<form id="q_search" class="" method="post">
+					<input type="hidden" name="do" value="search">
+					<input type="hidden" name="subaction" value="search">
+					<div class="sblock">
+						<input id="story" name="story" placeholder="Введите только название, например, Аспирин"
+							type="text" autocomplete="off">
+						<button id="sbmt_top" type="submit"> <img src="img/lupa.png" alt="search"> <span
+								class="fa fa-search"></span> Найти</button>
+					</div>
+
+				</form>
+			</div>
+			<div class="col-md-12">
+				<div class="alphabet_links">
+					<a href="#" class="alpa_items">А</a>
+					<a href="#" class="alpa_items">Б</a>
+					<a href="#" class="alpa_items">В</a>
+					<a href="#" class="alpa_items">Г</a>
+					<a href="#" class="alpa_items">Д</a>
+					<a href="#" class="alpa_items">Е</a>
+					<a href="#" class="alpa_items">Ё</a>
+					<a href="#" class="alpa_items">Ж</a>
+					<a href="#" class="alpa_items">З</a>
+					<a href="#" class="alpa_items">И</a>
+					<a href="#" class="alpa_items">Й</a>
+					<a href="#" class="alpa_items">К</a>
+					<a href="#" class="alpa_items">Л</a>
+					<a href="#" class="alpa_items">М</a>
+					<a href="#" class="alpa_items">Н</a>
+					<a href="#" class="alpa_items">О</a>
+					<a href="#" class="alpa_items">П</a>
+					<a href="#" class="alpa_items">Р</a>
+					<a href="#" class="alpa_items">С</a>
+					<a href="#" class="alpa_items">Т</a>
+					<a href="#" class="alpa_items">У</a>
+					<a href="#" class="alpa_items">Ф</a>
+					<a href="#" class="alpa_items">Х</a>
+					<a href="#" class="alpa_items">Ц</a>
+					<a href="#" class="alpa_items">Ч</a>
+					<a href="#" class="alpa_items">Ш</a>
+					<a href="#" class="alpa_items">Щ</a>
+					<a href="#" class="alpa_items">Ъ</a>
+					<a href="#" class="alpa_items">Ы</a>
+					<a href="#" class="alpa_items">Ь</a>
+					<a href="#" class="alpa_items">Э</a>
+					<a href="#" class="alpa_items">Ю</a>
+					<a href="#" class="alpa_items">Я</a>
+				</div>
+
+			</div>
 		</div>
 
 	</header>
-	
+
+	<section id="popular_drugs">
+		<div class="container">
+			<h2>Аналоги популярных препаратов по группам</h2>
+			<div class="green_line"></div>
+			<div class="row">
+
+			</div>
+		</div>
+
+
+	</section>
+
 	<div class="hidden"></div>
 
 	<div class="loader">
@@ -61,8 +132,9 @@
 	<script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="libs/animate/animate-css.js"></script>
 	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
-	
+
 	<script src="js/common.js"></script>
-	
+
 </body>
+
 </html>
