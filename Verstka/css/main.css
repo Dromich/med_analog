@@ -58,3 +58,10 @@ body {
 .hidden {
 	display: none;
 }
+.logo_top {
+	margin-top: 38px;
+}
+.logo_top a img {
+	/* width: 100%; */
+	margin: auto;
+}
