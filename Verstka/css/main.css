@@ -292,32 +292,74 @@ body {
 #seo_text p {
 	margin-top: 50px;
 }
+
 #seo_text {
 	padding-bottom: 68px;
 }
-footer{
+
+footer {
 	height: 426px;
-	padding-top:47px; 
-background-color: #f3f8fc;
+	padding-top: 47px;
+	background-color: #f3f8fc;
 }
+
 .sicial {
 	display: flex;
 	justify-content: start;
 }
+
 .sicial a:not(:first-child) {
 	margin: 5px 10px;
 }
+
 .sicial a:first-child {
-	margin-top: 5px ;
-	margin-right:10px; 
+	margin-top: 5px;
+	margin-right: 10px;
 }
+
 .about_us a {
 	display: block;
 	margin: 15px auto;
 	color: #a8ec15;
 }
+
 #copyright {
 	height: 14px;
 	opacity: 0.3;
 	color: #202c5c;
+}
+
+/*===CATALOG ALPHABET ==*/
+
+.alpahbet_cat .row {
+	margin-top: 39px;
+}
+
+.price {
+	font-size: 25px;
+	color: #202c5c;
+	font-weight: 700;
+	position: absolute;
+	right: 18%;
+	margin-top: -5px;
+}
+
+.star_price {
+	margin-top: -10px;
+	width: 100%;
+	padding: 0;
+	position: relative;
+}
+
+.alpabet_discriotion {
+	width: 70%;
+	height: 69px;
+	color: #72848f;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.alpha_item {
+	height: 320px;
 }
