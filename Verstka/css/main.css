@@ -335,6 +335,9 @@ footer {
 	margin-top: 39px;
 }
 
+.alpha_item h4 {
+	height: 16px;
+}
 .price {
 	font-size: 25px;
 	color: #202c5c;
@@ -345,14 +348,15 @@ footer {
 }
 
 .star_price {
-	margin-top: -10px;
 	width: 100%;
 	padding: 0;
 	position: relative;
+	height: 15px;
+	margin-top: 35px;
 }
 
 .alpabet_discriotion {
-	width: 70%;
+	width: 65%;
 	height: 69px;
 	color: #72848f;
 	font-size: 18px;
@@ -362,4 +366,5 @@ footer {
 
 .alpha_item {
 	height: 320px;
+	overflow: hidden;
 }
