@@ -266,6 +266,7 @@ body {
 	font-weight: 700;
 	line-height: 30px;
 }
+
 .news_date {
 	position: absolute;
 	display: block;
@@ -277,8 +278,17 @@ body {
 	background-color: #abed18;
 	color: #fff;
 }
+
 .news_date img {
 	margin-top: 7px;
 	margin-left: 5px;
 	margin-right: 5px;
+}
+
+#seo_text h2 {
+	margin-top: 43px;
+}
+
+#seo_text p {
+	margin-top: 50px;
 }
