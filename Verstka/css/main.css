@@ -19,10 +19,14 @@
 }
 
 body input:focus:required:invalid,
-body textarea:focus:required:invalid {}
+body textarea:focus:required:invalid {
+	color: red
+}
 
 body input:required:valid,
-body textarea:required:valid {}
+body textarea:required:valid {
+	color: #102054
+}
 
 html.js .loader {
 	background: none repeat scroll 0 0 #ffffff;
