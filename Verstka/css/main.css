@@ -521,11 +521,13 @@ footer {
 	color: #72848f;
 	margin-top: 40px;
 }
+
 .fullstory_preparat ul {
 	list-style-type: none;
 	padding: 0;
 	color: #72848f;
 }
+
 .fullstory_preparat ul li::before {
 	content: "🞄";
 	color: #a8df34;
@@ -541,10 +543,77 @@ footer {
 	margin: 10px auto;
 	border-left: 3px solid #a8df34;
 }
+
 .preparat_social {
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
+
 .rate_preparat {
 	float: right;
+}
+
+.realeted_news_fls {
+	width: 350px;
+	height: 277px;
+	background-position: 0 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	background-color: #296e9b;
+	opacity: .75;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.overlay_top {
+	z-index: 3;
+	position: absolute;
+	opacity: 1;
+	color: #fff;
+	top: 0;
+	left: 0;
+}
+
+.overlay_top p {
+	color: #fff;
+	margin: auto;
+	width: 241px;
+	height: 48px;
+	opacity: 0.8;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+.overlay_top h3 {
+	width: 85%;
+	color: #ffffff;
+	font-weight: 700;
+	margin: 25px auto;
+}
+.post_detail {
+	margin-left: 35px;
+	margin-top: 50px;
+	font-size: 12px;
+	color: #99a4ac;
+}
+
+.post_detail span {
+	margin-right: 20px;
+}
+.post_detail img{
+	display: inline !important;
+	width: 14px !important;
+}
+.related_news_carusel {
+	margin-top: 30px;
 }
