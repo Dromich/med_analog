@@ -335,6 +335,7 @@ footer {
 .alpha_item h4 {
 	height: 16px;
 }
+
 .price {
 	font-size: 25px;
 	color: #202c5c;
@@ -371,16 +372,20 @@ footer {
 .analogs_item {
 	margin-top: 50px;
 }
+
 .analogs_item_img img {
 	width: 100%;
 }
+
 .manufacture {
 	margin-top: 24px;
 }
+
 .manufacturer {
 	display: block;
 	margin: 10px auto;
 }
+
 .manufacturer {
 	display: block;
 	margin: 10px auto;
@@ -388,6 +393,7 @@ footer {
 	line-height: 34px;
 	color: #5e727e;
 }
+
 .manufacturer span {
 	color: #95d016;
 	font-weight: 400;
@@ -398,13 +404,22 @@ footer {
 	color: #b5c3cc;
 	line-height: 32px;
 	font-size: 14px;
-	
+
 }
+
 .analog_it_price span {
 	color: #94d5ff;
 }
+
 .analog_it_price strong {
 	color: #202c5c;
 	font-size: 22px;
 	margin: auto 10px;
+}
+
+.analog_it_description p {
+	color: #72848f;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
 }
