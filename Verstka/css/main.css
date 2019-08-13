@@ -427,3 +427,12 @@ footer {
 	font-weight: 400;
 	line-height: 26px;
 }
+.yandex_text {
+	display: block;
+	margin: 10px auto;
+	height: 17px;
+	color: #72848f;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 44px;
+}
