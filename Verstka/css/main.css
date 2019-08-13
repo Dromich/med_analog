@@ -374,3 +374,22 @@ footer {
 .analogs_item_img img {
 	width: 100%;
 }
+.manufacture {
+	margin-top: 24px;
+}
+.manufacturer {
+	display: block;
+	margin: 10px auto;
+}
+.manufacturer {
+	display: block;
+	margin: 10px auto;
+	font-size: 16px;
+	line-height: 34px;
+	color: #5e727e;
+}
+.manufacturer span {
+	color: #95d016;
+	font-weight: 400;
+	font-family: 'Circe Bold', sans-serif;
+}
