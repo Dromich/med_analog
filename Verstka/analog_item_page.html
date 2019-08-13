@@ -27,7 +27,12 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
+	
+	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
 
+	<link rel="stylesheet" href="owlcarousel/owl.theme.green.css">
+	
+	
 	<script src="libs/modernizr/modernizr.js"></script>
 
 </head>
@@ -210,9 +215,25 @@
 							<span class="rate_preparat">Оцените статью: <img src="img/stars.png" alt="stars"></span>
 						</div>
 
+						<div class="row related_news">
+								<h2>Вам может быть интересно</h2>
+								<div class="green_line"></div>
+
+								<div class="owl-carousel owl-theme">
+										<div> Your Content </div>
+										<div> Your Content </div>
+										<div> Your Content </div>
+										<div> Your Content </div>
+										<div> Your Content </div>
+										<div> Your Content </div>
+										<div> Your Content </div>
+									  </div>
+
+						</div>
 
 
-						
+
+
 					</div>
 
 				</div>
@@ -297,6 +318,30 @@
 	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
 
 	<script src="js/common.js"></script>
+
+	
+
+<script src="owlcarousel/owl.carousel.min.js"></script>
+
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+	nav:false,
+	dots:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+</script>
 
 </body>
 
