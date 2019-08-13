@@ -622,3 +622,30 @@ footer {
 .top_p{
 	color: #72848f;
 }
+h3 img {
+	max-width: 20px;
+}
+.article_details {
+	color: #72848f;
+}
+.article_details p {
+	margin-top: -10px;
+}
+.answer_body {
+	background-color: #f2f8fc;
+	padding: 5px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	padding-left: 20px;
+}
+.article_details ul {
+	list-style: none;
+	padding: 0;
+}
+
+.article_details ul li::before {
+	content: "✔";
+	color: #a8df34;
+	margin-right: 5px;
+	font-size: 18px;
+}
