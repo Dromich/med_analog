@@ -367,3 +367,10 @@ footer {
 	margin-top: 59px;
 }
 
+/*===CATALOG ANALOGS ==*/
+.analogs_item {
+	margin-top: 50px;
+}
+.analogs_item_img img {
+	width: 100%;
+}
