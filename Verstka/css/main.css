@@ -393,3 +393,18 @@ footer {
 	font-weight: 400;
 	font-family: 'Circe Bold', sans-serif;
 }
+
+.analog_it_price {
+	color: #b5c3cc;
+	line-height: 32px;
+	font-size: 14px;
+	
+}
+.analog_it_price span {
+	color: #94d5ff;
+}
+.analog_it_price strong {
+	color: #202c5c;
+	font-size: 22px;
+	margin: auto 10px;
+}
