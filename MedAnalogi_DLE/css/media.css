@@ -38,13 +38,9 @@
 	#sbmt_top {
 		width: auto;
 		height: 53px;
-		border-radius: 27px;
-		background-color: #1b76af;
-		background-image: linear-gradient(to right, #7cc9f9 0%, #ceeafcdb 100%);
-		border: none;
-		color: #fff;
-		margin-left: -38%;
 		
+		position: absolute;
+		right: 5px;
 	}
 	.alphabet_links a {
 		
