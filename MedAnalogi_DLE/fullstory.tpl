@@ -118,76 +118,10 @@
 
 
 
-							<div class="realeted_news_fls" style="background-image: url(img/gremma_arm_big.png)">
+								{custom  category="1-100"  template="relatednews" available="global" navigation="no" from="0" limit="4" fixed="no" order="date" sort="desc" cache="no"}
 
-								<div class="overlay_top">
-									<h3>Почему болит под
-										левой лопаткой спины?</h3>
-									<p>Работая с различными материалами и
-										деталями, большинство мастеров рано
-										или поздно сталкиваются с общей...</p>
-
-									<div class="post_detail">
-										<span> <img src="{THEME}/img/comment.png" alt="coment"> 14 </span>
-										<span> <img src="{THEME}/img/view.png" alt="coment"> 128 </span>
-									</div>
-								</div>
-								<div class="overlay"></div>
-
-							</div>
-
-							<div class="realeted_news_fls" style="background-image: url(img/gremma_arm_big.png)">
-
-								<div class="overlay_top">
-									<h3>Почему болит под
-										левой лопаткой спины?</h3>
-									<p>Работая с различными материалами и
-										деталями, большинство мастеров рано
-										или поздно сталкиваются с общей...</p>
-
-									<div class="post_detail">
-										<span> <img src="{THEME}/img/comment.png" alt="coment"> 14 </span>
-										<span> <img src="{THEME}/img/view.png" alt="coment"> 128 </span>
-									</div>
-								</div>
-								<div class="overlay"></div>
-
-							</div>
-
-							<div class="realeted_news_fls" style="background-image: url(img/gremma_arm_big.png)">
-
-								<div class="overlay_top">
-									<h3>Почему болит под
-										левой лопаткой спины?</h3>
-									<p>Работая с различными материалами и
-										деталями, большинство мастеров рано
-										или поздно сталкиваются с общей...</p>
-
-									<div class="post_detail">
-										<span> <img src="{THEME}/img/comment.png" alt="coment"> 14 </span>
-										<span> <img src="{THEME}/img/view.png" alt="coment"> 128 </span>
-									</div>
-								</div>
-								<div class="overlay"></div>
-
-							</div>
-							<div class="realeted_news_fls" style="background-image: url(img/gremma_arm_big.png)">
-
-								<div class="overlay_top">
-									<h3>Почему болит под
-										левой лопаткой спины?</h3>
-									<p>Работая с различными материалами и
-										деталями, большинство мастеров рано
-										или поздно сталкиваются с общей...</p>
-
-									<div class="post_detail">
-										<span> <img src="{THEME}/img/comment.png" alt="coment"> 14 </span>
-										<span> <img src="{THEME}/img/view.png" alt="coment"> 128 </span>
-									</div>
-								</div>
-								<div class="overlay"></div>
-
-							</div>
+						
+							
 
 
 						</div>
