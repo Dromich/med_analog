@@ -592,8 +592,8 @@ footer {
 }
 
 .overlay_top p {
-	color: #fff;
-	margin: auto;
+	/* color: #fff; */
+	margin: 15px;
 	width: 241px;
 	height: 48px;
 	opacity: 0.8;
