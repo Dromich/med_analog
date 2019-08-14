@@ -662,13 +662,27 @@ h3 img {
 	margin-right: 5px;
 	font-size: 18px;
 }
-
+/*=== OTHER STYLES ===*/
 .rating_wrap {
 	display: inline-block;
 	margin-bottom: -5px;
 	margin-left: 5px;
 }
 
+.speedbar {
+	margin-top: 24px;
+	display: block;
+}
+.speedbar a {
+	width: 327px;
+	height: 17px;
+	color: #b5c3cc;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+}
 
-
-
+#dle-speedbar {
+	color: #102054;
+	font-weight: 600;
+}
