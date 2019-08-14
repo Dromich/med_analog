@@ -255,9 +255,17 @@ body {
 	width: 70%;
 }
 
-.news_item_body img {
+.last_news_ig {
+	width: 115px;
+	height: 130px;
+	display: inline-block;
+	border-radius: 65px;
 	float: left;
 	margin-right: 15px;
+	margin-left: -3px;
+	background-size: cover;
+	overflow: hidden;
+	background-position: center center;
 }
 
 .news_item h4 {
@@ -280,7 +288,7 @@ body {
 }
 
 .news_date img {
-	margin-top: 7px;
+
 	margin-left: 5px;
 	margin-right: 5px;
 }
