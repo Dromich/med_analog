@@ -659,6 +659,12 @@ h3 img {
 	font-size: 18px;
 }
 
+.rating_wrap {
+	display: inline-block;
+	margin-bottom: -5px;
+	margin-left: 5px;
+}
+
 
 
 

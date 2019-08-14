@@ -1,11 +1,11 @@
 <section class="analogs_cat">
 		<div class="container">
-			<h2>Аналоги таблеток Ремантадин</h2>
+			<h2>{title}</h2>
 			<div class="green_line"></div>
 
 			<div class="row analogs_item">
 				<div class="col-md-4 analogs_item_img">
-					<img src="img/remantadin_photo.png" alt="remantadin">
+					<img src="{image-1}" alt="{title}">
 					<div class="manufacture">
 						<span class="manufacturer">Производитель: <span>Олайнфарм (Латвия)</span> </span>
 						<span class="manufacturer">Формы выпуска: <span>Табл. 50 мг, 20 шт.</span> </span>
@@ -14,25 +14,25 @@
 				<div class="col-md-8 analogs_item_details">
 
 					<div class="analog_it_price_more">
-						<img class="yandex_logo" src="img/yandex-market-logo.png" alt="yandex-market">
+						<img class="yandex_logo" src="{THEME}/img/yandex-market-logo.png" alt="yandex-market">
 						<span class="yandex_text">Цена на Ремантадин, в интернет-аптеках
 							(Москва,Санкт-Петербург)</span>
 
 						<div class="yandex_mark_item">
-							<img class="yandex_it_img" src="img/remantadin_photo.png" alt="Alt">
-							<span class="ya_it_rate"><img src="img/stars.png" alt="stars"></span>
+							<img class="yandex_it_img" src="{THEME}/img/remantadin_photo.png" alt="Alt">
+							<span class="ya_it_rate"><img src="{THEME}/img/stars.png" alt="stars"></span>
 							<span class="ya_it_prc">78₽</span>
 							<a class="ya_it_more" href="#">Подробнее →</a>
 						</div>
 						<div class="yandex_mark_item">
-							<img class="yandex_it_img" src="img/radevit_photo.png" alt="Alt">
-							<span class="ya_it_rate"><img src="img/stars.png" alt="stars"></span>
+							<img class="yandex_it_img" src="{THEME}/img/radevit_photo.png" alt="Alt">
+							<span class="ya_it_rate"><img src="{THEME}/img/stars.png" alt="stars"></span>
 							<span class="ya_it_prc">78₽</span>
 							<a class="ya_it_more" href="#">Подробнее →</a>
 						</div>
 						<div class="yandex_mark_item">
-							<img class="yandex_it_img" src="img/remantadin_photo.png" alt="Alt">
-							<span class="ya_it_rate"><img src="img/stars.png" alt="stars"></span>
+							<img class="yandex_it_img" src="{THEME}/img/remantadin_photo.png" alt="Alt">
+							<span class="ya_it_rate"><img src="{THEME}/img/stars.png" alt="stars"></span>
 							<span class="ya_it_prc">78₽</span>
 							<a class="ya_it_more" href="#">Подробнее →</a>
 						</div>
@@ -49,17 +49,18 @@
 				</div>
 
 				<div class="col-md-12 analog_it_iner_puncts">
-					<nobr><a href="#">Фармакологическое действие <img src="img/question-mark.png"
+					<nobr><a href="#">Фармакологическое действие <img src="{THEME}/img/question-mark.png"
 								alt="question-mark"> </a></nobr>
-					<nobr><a href="#">Показания к применению <img src="img/question-mark.png"
+					<nobr><a href="#">Показания к применению <img src="{THEME}/img/question-mark.png"
 								alt="question-mark"></a></nobr>
-					<a href="#">Способ применения <img src="img/question-mark.png" alt="question-mark"></a>
-					<a href="#"> Состав <img src="img/question-mark.png" alt="question-mark"></a>
-					<nobr><a href="#">Побочные действия <img src="img/question-mark.png" alt="question-mark"></a>
+					<a href="#">Способ применения <img src="{THEME}/img/question-mark.png" alt="question-mark"></a>
+					<a href="#"> Состав <img src="{THEME}/img/question-mark.png" alt="question-mark"></a>
+					<nobr><a href="#">Побочные действия <img src="{THEME}/img/question-mark.png" alt="question-mark"></a>
 					</nobr>
 				</div>
+				{full-story}
 
-				<div class="col-md-12 fullstory_preparat">
+			<!--	<div class="col-md-12 fullstory_preparat">
 					<h2>Вступление</h2>
 					<div class="green_line"></div>
 
@@ -92,7 +93,7 @@
 							сознания,
 							рассеивание внимания, головокружение, головные боли, повышение нервной возбудимости,
 							общая усталость).</li>
-					</ul>
+					</ul>-->
 
 
 
@@ -102,9 +103,11 @@
 							ПРОКОНСУЛЬТИРОВАТЬСЯ СО СПЕЦИАЛИСТОМ</p>
 					</div>
 
+
+
 					<div class="col-md-12 preparat_social">
-						<img src="img/social_buttons.png" alt="social_buttons">
-						<span class="rate_preparat">Оцените статью: <img src="img/stars.png" alt="stars"></span>
+						<img src="{THEME}/img/social_buttons.png" alt="social_buttons">
+						<span class="rate_preparat">Оцените статью:   <span class="rating_wrap">{rating}</span></span>
 					</div>
 
 					<div class="row related_news">
@@ -125,8 +128,8 @@
 										или поздно сталкиваются с общей...</p>
 
 									<div class="post_detail">
-										<span> <img src="img/comment.png" alt="coment"> 14 </span>
-										<span> <img src="img/view.png" alt="coment"> 128 </span>
+										<span> <img src="{THEME}/img/comment.png" alt="coment"> 14 </span>
+										<span> <img src="{THEME}/img/view.png" alt="coment"> 128 </span>
 									</div>
 								</div>
 								<div class="overlay"></div>
@@ -143,8 +146,8 @@
 										или поздно сталкиваются с общей...</p>
 
 									<div class="post_detail">
-										<span> <img src="img/comment.png" alt="coment"> 14 </span>
-										<span> <img src="img/view.png" alt="coment"> 128 </span>
+										<span> <img src="{THEME}/img/comment.png" alt="coment"> 14 </span>
+										<span> <img src="{THEME}/img/view.png" alt="coment"> 128 </span>
 									</div>
 								</div>
 								<div class="overlay"></div>
@@ -161,8 +164,8 @@
 										или поздно сталкиваются с общей...</p>
 
 									<div class="post_detail">
-										<span> <img src="img/comment.png" alt="coment"> 14 </span>
-										<span> <img src="img/view.png" alt="coment"> 128 </span>
+										<span> <img src="{THEME}/img/comment.png" alt="coment"> 14 </span>
+										<span> <img src="{THEME}/img/view.png" alt="coment"> 128 </span>
 									</div>
 								</div>
 								<div class="overlay"></div>
@@ -178,8 +181,8 @@
 										или поздно сталкиваются с общей...</p>
 
 									<div class="post_detail">
-										<span> <img src="img/comment.png" alt="coment"> 14 </span>
-										<span> <img src="img/view.png" alt="coment"> 128 </span>
+										<span> <img src="{THEME}/img/comment.png" alt="coment"> 14 </span>
+										<span> <img src="{THEME}/img/view.png" alt="coment"> 128 </span>
 									</div>
 								</div>
 								<div class="overlay"></div>
