@@ -386,7 +386,8 @@ footer {
 }
 
 .analogs_item_img img {
-	width: 100%;
+	max-width: 100%;
+	max-height: 380px;
 }
 
 .analog_it_rate_ttl {
