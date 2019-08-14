@@ -357,7 +357,8 @@
 	<script src="{THEME}/js/common.js"></script>
 
 	<script src="{THEME}/owlcarousel/owl.carousel.min.js"></script>
-[available=="main"]
+
+ [available=main]
 	<script>
 		$('.owl-carousel').owlCarousel({
 			center: false,
@@ -381,7 +382,8 @@
 		})
 	</script>
 [/available]
-[available=="showfull"]
+
+[available=showfull]
 <script>
 		$('.owl-carousel').owlCarousel({
 			center: false,
