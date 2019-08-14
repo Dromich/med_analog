@@ -38,19 +38,19 @@
 
 	<header class="container">
 		<div class="row">
-			<div class="col-md-3 logo_top">
+			<div class="col-md-3 col-xs-12 logo_top">
 				<a href="/">
 					<img src="{THEME}/img/logo.png" alt="logo" title="Logo"></a>
 			</div>
-			<div class="col-md-8 top_menu">
+			<div class="col-md-8 col-xs-12 top_menu">
 				<a href="#" class="top_menu_items">Препараты от..</a>
 				<a href="#" class="top_menu_items">Медицинские учреждения </a>
 				<a href="#" class="top_menu_items">Вопросы и ответы</a>
 			</div>
-			<div class="col-md-1 login_top_btn">
+			<div class="col-md-1 col-xs-12 login_top_btn">
 				<img src="{THEME}/img/login.png" alt="login" title="login">
 			</div>
-			<div class="col-md-12 search_top">
+			<div class="col-md-12 col-xs-12 search_top">
 				<form id="q_search" class="" method="post">
 					<input type="hidden" name="do" value="search">
 					<input type="hidden" name="subaction" value="search">
@@ -63,7 +63,7 @@
 
 				</form>
 			</div>
-			<div class="col-md-12">
+			<div class="col-md-12 col-xs-12">
 				<div class="alphabet_links">
 					<a href="#" class="alpa_items">А</a>
 					<a href="#" class="alpa_items">Б</a>
@@ -110,10 +110,10 @@
 				<h2>Аналоги популярных препаратов по группам</h2>
 				<div class="green_line"></div>
 				<div class="row popular_drugs_grup">
-					<div class="col-md-4">
+					<div class="col-md-4 col-xs-12">
 						<h3>От диареи</h3>
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-8 col-xs-12">
 						<a href="#" class="popular_drug_item"><img src="{THEME}/img/smekta_icon.png" alt="smekta">Смекта</a>
 						<a href="#" class="popular_drug_item"><img src="{THEME}/img/polipefan_icon.png"
 								alt="Полифепан">Полифепан</a>
@@ -124,10 +124,10 @@
 
 				</div>
 				<div class="row popular_drugs_grup">
-					<div class="col-md-4">
+					<div class="col-md-4 col-xs-12">
 						<h3>От простуды</h3>
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-8 col-xs-12">
 						<a href="#" class="popular_drug_item"><img src="{THEME}/img/arbidol_icon.png" alt="Арбидол">Арбидол</a>
 						<a href="#" class="popular_drug_item"><img src="{THEME}/img/teraflu_icon.png" alt="Терафлю">Терафлю</a>
 						<a href="#" class="popular_drug_item"><img src="{THEME}/img/fervex_icon.png" alt="Фервекс">Фервекс</a>
@@ -136,10 +136,10 @@
 
 				</div>
 				<div class="row popular_drugs_grup">
-					<div class="col-md-4">
+					<div class="col-md-4 col-xs-12">
 						<h3>От мигрени</h3>
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-8 col-xs-12">
 						<a href="#" class="popular_drug_item"><img src="{THEME}/img/kafeetin_icon.png"
 								alt="Каффетин">Каффетин</a>
 						<a href="#" class="popular_drug_item"><img src="{THEME}/img/solfast_icon.png"
@@ -172,7 +172,7 @@
 								</div>
 
 								<div class="row">
-										<div class="col-md-6 news_item">
+										<div class="col-md-6 col-xs-12 news_item">
 											<h4>Почему болит в районе солнечного сплетения?</h4>
 											<div class="news_item_body">
 												<img src="{THEME}/img/liver_pain.png" alt="liver_pain">
@@ -180,7 +180,7 @@
 												<span class="news_date">05.06.2019 <img src="{THEME}/img/clock-circular.png" alt="clock"></span>
 											</div>
 										</div>
-										<div class="col-md-6 news_item">
+										<div class="col-md-6  col-xs-12 news_item">
 											<h4>Почему болит под левой лопаткой со спины?</h4>
 											<div class="news_item_body">
 												<img src="{THEME}/img/gremma_arm.png" alt="liver_pain">
@@ -188,7 +188,7 @@
 												<span class="news_date">05.06.2019 <img src="{THEME}/img/clock-circular.png" alt="clock"></span>
 											</div>
 										</div>
-										<div class="col-md-6 news_item">
+										<div class="col-md-6 col-xs-12 news_item">
 											<h4>Как оказывать первую помощь при отеке легких?</h4>
 											<div class="news_item_body">
 												<img src="{THEME}/img/liver_pain.png" alt="liver_pain">
@@ -196,7 +196,7 @@
 												<span class="news_date">05.06.2019 <img src="{THEME}/img/clock-circular.png" alt="clock"></span>
 											</div>
 										</div>
-										<div class="col-md-6 news_item">
+										<div class="col-md-6 col-xs-12 news_item">
 											<h4>Как распознать у человека отек легких?</h4>
 											<div class="news_item_body">
 												<img src="{THEME}/img/gremma_arm.png" alt="liver_pain">
@@ -209,7 +209,7 @@
 									</div>
 
 									<div class="row">
-											<div class="col-md-6 news_item">
+											<div class="col-md-6 col-xs-12 news_item">
 												<h4>Почему болит в районе солнечного сплетения?</h4>
 												<div class="news_item_body">
 													<img src="{THEME}/img/liver_pain.png" alt="liver_pain">
@@ -217,7 +217,7 @@
 													<span class="news_date">05.06.2019 <img src="{THEME}/img/clock-circular.png" alt="clock"></span>
 												</div>
 											</div>
-											<div class="col-md-6 news_item">
+											<div class="col-md-6 col-xs-12 news_item">
 												<h4>Почему болит под левой лопаткой со спины?</h4>
 												<div class="news_item_body">
 													<img src="{THEME}/img/gremma_arm.png" alt="liver_pain">
@@ -225,7 +225,7 @@
 													<span class="news_date">05.06.2019 <img src="{THEME}/img/clock-circular.png" alt="clock"></span>
 												</div>
 											</div>
-											<div class="col-md-6 news_item">
+											<div class="col-md-6 col-xs-12 news_item">
 												<h4>Как оказывать первую помощь при отеке легких?</h4>
 												<div class="news_item_body">
 													<img src="{THEME}/img/liver_pain.png" alt="liver_pain">
@@ -233,7 +233,7 @@
 													<span class="news_date">05.06.2019 <img src="{THEME}/img/clock-circular.png" alt="clock"></span>
 												</div>
 											</div>
-											<div class="col-md-6 news_item">
+											<div class="col-md-6 col-xs-12 news_item">
 												<h4>Как распознать у человека отек легких?</h4>
 												<div class="news_item_body">
 													<img src="{THEME}/img/gremma_arm.png" alt="liver_pain">
@@ -281,11 +281,11 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 logo_top">
+				<div class="col-md-4 col-xs-12 logo_top">
 					<a href="/">
 						<img src="{THEME}/img/logo.png" alt="logo" title="Logo"></a>
 				</div>
-				<div class="col-md-8 top_menu">
+				<div class="col-md-8 col-xs-12 top_menu">
 					<a href="#" class="top_menu_items">Препараты от..</a>
 					<a href="#" class="top_menu_items">Медицинские учреждения </a>
 					<a href="#" class="top_menu_items">Вопросы и ответы</a>

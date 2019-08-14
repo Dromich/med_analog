@@ -12,6 +12,70 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.top_menu {
+		margin-top: 20px;
+		padding: 0;
+		display: block;
+		justify-content: space-around;
+	}
+	.top_menu a {
+		color: #102054;
+		font-family: 'Circe Light', sans-serif;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 30px;
+		border-radius: 22px;
+		border: 2px solid #a7ec14;
+		padding: 10px;
+		width: 90%;
+		display: block;
+		margin: 5px auto;
+	}
+	.top_menu a:not(:first-child) {
+		/* margin-left: 5px; */
+		margin: 5px auto;
+	}
+	#sbmt_top {
+		width: auto;
+		height: 53px;
+		border-radius: 27px;
+		background-color: #1b76af;
+		background-image: linear-gradient(to right, #7cc9f9 0%, #ceeafcdb 100%);
+		border: none;
+		color: #fff;
+		margin-left: -38%;
+		
+	}
+	.alphabet_links a {
+		
+		font-size: 10px;
+		
+		
+	}
+	.popular_drug_item {
+		width: 95%;
+		margin: 5px auto;
+	}
+	.popular_drug_item:not(:first-child) {
+		margin: 5px auto;
+	}
+	.news_item_body {
+		width: 100%;
+		height: auto;
+		
+	}
+	.news_item_body p {
+		color: #ffffff;
+		font-size: 15px;
+		font-family: 'Circe Extra Light', sans-serif;
+		font-weight: 400;
+		/* line-height: 25px; */
+		display: inline-block;
+		width: 95%;
+		margin-left: 15px;
+		margin-top: -5px;
+		padding: 18px;
+	}
 	
 	/*Disable Animation on Mobile Devices*/
 	.animated {
