@@ -66,7 +66,7 @@
 			</div>
 			<div class="col-md-12 col-xs-12">
 				<div class="alphabet_links">
-					<a href="#" class="alpa_items">А</a>
+					<a href="/o-skripte/" class="alpa_items">А</a>
 					<a href="#" class="alpa_items">Б</a>
 					<a href="#" class="alpa_items">В</a>
 					<a href="#" class="alpa_items">Г</a>
