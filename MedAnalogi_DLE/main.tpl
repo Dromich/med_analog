@@ -105,6 +105,9 @@
 
 	</header>
 	<main>
+{info}{content}
+
+			[available=main]
 		<section id="popular_drugs">
 			<div class="container">
 				<h2>Аналоги популярных препаратов по группам</h2>
@@ -275,6 +278,7 @@
 				</div>
 			</div>
 		</section>
+		[/available]
 	</main>
 
 
