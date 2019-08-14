@@ -343,7 +343,11 @@ footer {
 .alpha_item h4 {
 	height: 16px;
 }
-
+.alphabet_main_img {
+	max-height: 125px;
+	margin: 0 auto;
+	display: block;
+}
 .price {
 	font-size: 25px;
 	color: #202c5c;
