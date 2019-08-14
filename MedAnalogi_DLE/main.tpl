@@ -106,7 +106,13 @@
 
 	</header>
 	<main>
-			[not-available=cat] {info}{content} [/not-available]
+			
+
+			[not-available=cat|main]
+			
+			
+			<div class="container">{speedbar}</div>
+			{info}{content} [/not-available]
 
 
 
@@ -114,10 +120,11 @@
 
 <section class="alpahbet_cat">
 		<div class="container">
+				{speedbar}
 			<h2>{category-title}</h2>
 			<div class="green_line"></div>
 			<div class="row">
-
+					
 					{info}{content}
 
 			</div>
