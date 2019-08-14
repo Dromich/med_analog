@@ -2,7 +2,7 @@
 		<div class="container">
 			<h2>{title}</h2>
 			<div class="green_line"></div>
-
+		
 			<div class="row analogs_item">
 				<div class="col-md-4 analogs_item_img">
 					<img src="{image-1}" alt="{title}">
