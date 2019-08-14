@@ -106,7 +106,28 @@
 
 	</header>
 	<main>
-{info}{content}
+			[not-available=cat] {info}{content} [/not-available]
+
+
+
+[available=cat] 
+
+<section class="alpahbet_cat">
+		<div class="container">
+			<h2>{category-title}</h2>
+			<div class="green_line"></div>
+			<div class="row">
+
+					{info}{content}
+
+			</div>
+			
+		</div>
+</section>
+
+[/available]
+
+
 
 			[available=main]
 		<section id="popular_drugs">
