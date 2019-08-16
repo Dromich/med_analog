@@ -58,8 +58,7 @@
 					<div class="sblock">
 						<input id="story" name="story" placeholder="Введите только название, например, Аспирин"
 							type="text" autocomplete="off">
-						<button id="sbmt_top" type="submit"> <img src="{THEME}/img/lupa.png" alt="search"> <span
-								class="fa fa-search"></span> Найти</button>
+						<button id="sbmt_top" type="submit"> <span class="fa fa-search"></span> Найти</button>
 					</div>
 
 				</form>
