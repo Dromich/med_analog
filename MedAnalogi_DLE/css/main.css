@@ -779,3 +779,19 @@ h3 img {
 	display: block;
 	padding: 10px;
 }
+.mass {
+	width: 20px;
+	height: 20px;	
+}
+.com_tools_links.grey {
+	float: right;
+	padding: 10px;
+	color: #72848f;
+}
+.com_tools_links.grey a {
+	font-size: 15px;
+	color: #72848f;
+}
+.edit_btn a {
+	color: #a7ec14;
+}
