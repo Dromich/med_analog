@@ -112,7 +112,9 @@
 			
 			
 			<div class="container">{speedbar}</div>
-			{info}{content} [/not-available]
+			{info}{content} 
+			
+			[/not-available]
 
 
 
