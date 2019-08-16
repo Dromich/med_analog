@@ -127,7 +127,17 @@
 						</div>
 
 					</div>
+					<div class="coments_wrap row">
 
+					<div class="coment_title">
+							Комментарии ({comments-num}) [group=5]<span class="enter_login"> Войти <img src="{THEME}/img/social_buttons.png" alt="Login button"></span>[/group]</div>
+					
+					
+					{addcomments}
+
+					
+							{comments}
+					</div>
 
 
 

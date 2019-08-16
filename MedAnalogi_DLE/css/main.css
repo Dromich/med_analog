@@ -57,7 +57,7 @@ body {
 	min-width: 320px;
 	position: relative;
 	line-height: 1.6;
-	font-family: 'Circe Light', sans-serif;
+	font-family: 'Circe Regular', sans-serif;
 	overflow-x: hidden;
 }
 
@@ -685,4 +685,97 @@ h3 img {
 #dle-speedbar {
 	color: #102054;
 	font-weight: 600;
+}
+.coment_title {
+	height: 23px;
+	color: #202c5c;
+	font-family: 'Circe Bold', sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 30px;
+	margin-top: 60px;
+	margin-bottom: 25px;
+}
+.coment_title span {
+	float: right;
+	font-size: 18px;
+	font-family: 'Circe Regular', sans-serif;
+	font-weight: 400;
+}
+#addcomment {
+	padding: 35px;
+	background-color: #f2f8fc;
+}
+#addcomment ul {
+	list-style: none;
+	padding: 0;
+}
+.combo_field {
+	width: 45%;
+	/* float: left; */
+	display: inline-block;
+	margin: 15px;
+}
+.combo_field {
+	width: 45%;
+	display: inline-block;
+	margin: 15px;
+	padding: 5px;
+}
+.combo_field input {
+	border-radius: 50px;
+	border: 0px solid #fff;
+	padding: 15px;
+	color: #72848f;
+}
+.coment_title span {
+	float: right;
+	font-size: 18px;
+	font-family: 'Circe Regular', sans-serif;
+	font-weight: 400;
+}
+
+.mass_comments_action {
+	width: 90%;
+	margin: 20px auto;
+	background-color: #f2f8fc;
+	padding: 10px;
+}
+
+.mass_comments_action select {
+	border: 0px solid #fff;
+	background-color: #fff;
+	border-radius: 15px;
+	color: #72848f;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.com_info {
+	width: 50px;
+	padding: 0;
+	margin: 0;
+}
+.name a {
+	
+	color: #202c5c;
+	margin-right: 10px;
+	font-size: 18px;
+}
+.grey.date {
+	font-size: 12px;
+	color: #72848f;
+}
+.cover {
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	display: block;
+	border-radius: 10px;
+}
+.coment_body {
+	margin: 20px auto;
+	width: 100%;
+	display: block;
+	padding: 10px;
 }
