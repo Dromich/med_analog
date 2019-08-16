@@ -1,6 +1,6 @@
 <div class="coment_body row " id="{comment-id}">
 
-
+		<div class="mass">{mass-action}</div>
 	<div class="col-md-12  com_content">
 
 		
@@ -19,14 +19,14 @@
 
 	<div class="com_tools">
 		[not-group=5]
-		<div class="mass">{mass-action}</div>
+		
 		<span class="edit_btn">
 			[com-edit]
-			<i title="Редактировать">Редактировать</i>
+			Редактировать
 			[/com-edit]
 		</span>
 		[/not-group]
-		<div class="com_tools_links grey col-md-12">
+		<div class="com_tools_links grey ">
 			[fast]<span>Цитировать</span>[/fast]
 			[treecomments]
 			[reply]<span>Ответить</span>[/reply]
