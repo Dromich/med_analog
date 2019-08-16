@@ -199,84 +199,23 @@
 						
 
 							<div class="row">
+								<!--Здесь нужно указать нужную категорию для вывода а также диапазон новостей 0-4-->
 									{custom  category="1-100"  template="last_news" available="global" navigation="no" from="0" limit="4" fixed="no" order="date" sort="desc" cache="no"}
 				
 				
 								</div>
 
 								<div class="row">
-										<div class="col-md-6 col-xs-12 news_item">
-											<h4>Почему болит в районе солнечного сплетения?</h4>
-											<div class="news_item_body">
-												<img src="{THEME}/img/liver_pain.png" alt="liver_pain">
-												<p>Главное отличие мошек от других насекомых в том, что их атаки не ощущаются человеком.</p>
-												<span class="news_date">05.06.2019 <img src="{THEME}/img/clock-circular.png" alt="clock"></span>
-											</div>
-										</div>
-										<div class="col-md-6  col-xs-12 news_item">
-											<h4>Почему болит под левой лопаткой со спины?</h4>
-											<div class="news_item_body">
-												<img src="{THEME}/img/gremma_arm.png" alt="liver_pain">
-												<p>Боль слева под лопаткой заставляет мнительного человека сразу думать об инфаркте.</p>
-												<span class="news_date">05.06.2019 <img src="{THEME}/img/clock-circular.png" alt="clock"></span>
-											</div>
-										</div>
-										<div class="col-md-6 col-xs-12 news_item">
-											<h4>Как оказывать первую помощь при отеке легких?</h4>
-											<div class="news_item_body">
-												<img src="{THEME}/img/liver_pain.png" alt="liver_pain">
-												<p>Отек легких представляет собой угрожающее жизни состояние. Оказание доврачебной...</p>
-												<span class="news_date">05.06.2019 <img src="{THEME}/img/clock-circular.png" alt="clock"></span>
-											</div>
-										</div>
-										<div class="col-md-6 col-xs-12 news_item">
-											<h4>Как распознать у человека отек легких?</h4>
-											<div class="news_item_body">
-												<img src="{THEME}/img/gremma_arm.png" alt="liver_pain">
-												<p>Отек легких представляет собой патологию, при которой в альвеолах и ткани органа...</p>
-												<span class="news_date">05.06.2019 <img src="{THEME}/img/clock-circular.png" alt="clock"></span>
-											</div>
-										</div>
-					
+										<!--Здесь нужно указать нужную категорию для вывода а также диапазон новостей from="5"-->
+										{custom  category="1-100"  template="last_news" available="global" navigation="no" from="0" limit="4" fixed="no" order="date" sort="desc" cache="no"}
 					
 									</div>
 
 									<div class="row">
-											<div class="col-md-6 col-xs-12 news_item">
-												<h4>Почему болит в районе солнечного сплетения?</h4>
-												<div class="news_item_body">
-													<img src="{THEME}/img/liver_pain.png" alt="liver_pain">
-													<p>Главное отличие мошек от других насекомых в том, что их атаки не ощущаются человеком.</p>
-													<span class="news_date">05.06.2019 <img src="{THEME}/img/clock-circular.png" alt="clock"></span>
-												</div>
-											</div>
-											<div class="col-md-6 col-xs-12 news_item">
-												<h4>Почему болит под левой лопаткой со спины?</h4>
-												<div class="news_item_body">
-													<img src="{THEME}/img/gremma_arm.png" alt="liver_pain">
-													<p>Боль слева под лопаткой заставляет мнительного человека сразу думать об инфаркте.</p>
-													<span class="news_date">05.06.2019 <img src="{THEME}/img/clock-circular.png" alt="clock"></span>
-												</div>
-											</div>
-											<div class="col-md-6 col-xs-12 news_item">
-												<h4>Как оказывать первую помощь при отеке легких?</h4>
-												<div class="news_item_body">
-													<img src="{THEME}/img/liver_pain.png" alt="liver_pain">
-													<p>Отек легких представляет собой угрожающее жизни состояние. Оказание доврачебной...</p>
-													<span class="news_date">05.06.2019 <img src="{THEME}/img/clock-circular.png" alt="clock"></span>
-												</div>
-											</div>
-											<div class="col-md-6 col-xs-12 news_item">
-												<h4>Как распознать у человека отек легких?</h4>
-												<div class="news_item_body">
-													<img src="{THEME}/img/gremma_arm.png" alt="liver_pain">
-													<p>Отек легких представляет собой патологию, при которой в альвеолах и ткани органа...</p>
-													<span class="news_date">05.06.2019 <img src="{THEME}/img/clock-circular.png" alt="clock"></span>
-												</div>
-											</div>
-						
-						
+									<!--Здесь нужно указать нужную категорию для вывода а также диапазон новостей from="9"-->
+											{custom  category="1-100"  template="last_news" available="global" navigation="no" from="0" limit="4" fixed="no" order="date" sort="desc" cache="no"}
 										</div>
+										<!--Таких секций можно добавить сколько угодно-->
 
 
 				</div>
