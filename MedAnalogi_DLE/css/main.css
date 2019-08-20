@@ -892,3 +892,33 @@ h3 img {
 	font-weight: 700;
 	color: #202c5c;
 }
+.login_pane__foot a {
+	padding: 10px;
+	border-radius: 15px;
+	border: 2px solid #a7ec14;
+	width: 180px;
+	display: inline-block;
+	color: #202c5c;
+}
+
+.login_pane__foot {
+	text-align: center;
+	padding: 10px;
+}
+.login_form ul {
+	list-style: none;
+	padding: 5px;
+}
+.login_form input {
+	padding: 8px;
+	border-radius: 10px;
+	border: 2px solid #a7ec14;
+}
+.login_form__foot a {
+	/* padding: 10px; */
+	border-radius: 15px;
+	/* border: 2px solid #a7ec14; */
+	width: 140px;
+	display: inline-block;
+	color: #202c5c;
+}
