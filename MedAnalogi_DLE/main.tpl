@@ -18,7 +18,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" href="{THEME}/libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="{THEME}/libs/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="{THEME}/libs/animate/animate.css">
 	<link rel="stylesheet" href="{THEME}/owlcarousel/owl.carousel.css">
 
@@ -48,7 +48,7 @@
 				<a href="#" class="top_menu_items">Медицинские учреждения </a>
 				<a href="#" class="top_menu_items">Вопросы и ответы</a>
 			</div>
-			<div class="col-md-1 col-xs-12 login_top_btn">
+			<div id="login_main_btn" class="col-md-1 col-xs-12 login_top_btn">
 				<img src="{THEME}/img/login.png" alt="login" title="login">
 			</div>
 			<div class="col-md-12 col-xs-12 search_top">
@@ -303,7 +303,7 @@
 		</div>
 
 	</footer>
-
+{login}
 	<div class="hidden"></div>
 
 	<div class="loader">
