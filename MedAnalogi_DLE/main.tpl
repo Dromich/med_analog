@@ -48,7 +48,7 @@
 				<a href="#" class="top_menu_items">Медицинские учреждения </a>
 				<a href="#" class="top_menu_items">Вопросы и ответы</a>
 			</div>
-			<div id="login_main_btn" class="col-md-1 col-xs-12 login_top_btn">
+			<div id="login_main_btn" class="col-md-1 col-xs-12 login_top_btn" data-toggle="modal" data-target="#loginModal">
 				<img src="{THEME}/img/login.png" alt="login" title="login">
 			</div>
 			<div class="col-md-12 col-xs-12 search_top">
