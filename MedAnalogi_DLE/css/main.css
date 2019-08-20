@@ -109,6 +109,7 @@ body {
 .login_top_btn img {
 	margin: 0 auto;
 	cursor: pointer;
+	display: block;
 }
 
 .search_top {
