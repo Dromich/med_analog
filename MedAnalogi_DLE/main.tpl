@@ -321,6 +321,7 @@
 	<script src="{THEME}/libs/waypoints/waypoints.min.js"></script>
 	<script src="{THEME}/libs/animate/animate-css.js"></script>
 	<script src="{THEME}/libs/plugins-scroll/plugins-scroll.js"></script>
+	<script src="{THEME}/libs/bootstrap/js/bootstrap.min.js"></script>
 
 	<script src="{THEME}/js/common.js"></script>
 
