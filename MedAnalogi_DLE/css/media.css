@@ -12,6 +12,17 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.logo_top a img {
+		display: block;
+	}
+	.analog_it_iner_puncts a {
+		display: block;
+	}
+	.analog_it_iner_puncts {
+		
+		height: auto;
+		
+	}
 	.top_menu {
 		margin-top: 20px;
 		padding: 0;
