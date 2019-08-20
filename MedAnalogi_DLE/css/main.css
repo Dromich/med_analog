@@ -863,3 +863,10 @@ h3 img {
 .goog_a {
 	background-position: -160px;
 }
+/*===LOGIN PANEL ===*/
+
+.user_login_avatar {
+	max-width: 100px;
+	border-radius: 20px;
+	border: 2px solid #a7ec14;
+}
