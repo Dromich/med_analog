@@ -866,7 +866,29 @@ h3 img {
 /*===LOGIN PANEL ===*/
 
 .user_login_avatar {
-	max-width: 100px;
-	border-radius: 20px;
+	max-width: 60px;
+	border-radius: 15px;
 	border: 2px solid #a7ec14;
+	margin-right: 10px;
+}
+.login_pane__menu {
+	list-style: none;
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+}
+.login_pane__menu li {
+	display: inline-block;
+	margin: 5px;
+}
+.login_pane__menu li a {
+	font-size: 15px;
+	color: #72848f;
+}
+.right {
+	margin-left: 5px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #202c5c;
 }
