@@ -75,7 +75,15 @@
 
 
 					<div class="col-md-12 preparat_social">
-						<img src="{THEME}/img/social_buttons.png" alt="social_buttons">
+						<span class="social_buttons">
+							<a class="vk_a" href="https://vk.com/share.php?url={full-link}&amp;title={title}&amp;description={title}&amp;image={image-1}&amp;utm_source=share2" rel="nofollow" target="_blank"></a>
+							<a class="ok_a" href="https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&amp;st.shareUrl={full-link}%23&amp;utm_source=share2"></a>
+							<a class="fb_a" href="https://www.facebook.com/sharer.php?u={full-link}"></a>
+							<a class="tweet_a" href="https://twitter.com/intent/tweet?url={full-link}"></a>
+							<a class="goog_a" href=""></a>
+						</span>
+						
+
 						<span class="rate_preparat">Оцените статью:   <span class="rating_wrap">{rating}</span></span>
 					</div>
 
