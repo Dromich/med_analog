@@ -4,27 +4,24 @@
 <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
-				<div class="modal-header">
-					
-				</div>
+					<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+									aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="loginModalLabel">Админпанель</h4>
+						</div>
 				<div class="modal-body">
 
 						<div class="loginpane">
 								[not-group=5]
-								<a id="loginbtn" class="h_btn login" href="{profile-link}">
-									<div class="avatar pmnum_{new-pm}">
-										<span class="cover" style="background-image: url({foto});">{login}</span>
-										<span class="num">{new-pm}</span>
-									</div>
-									<span class="icon_close">
-										<i class="mt_1"></i><i class="mt_2"></i>
-									</span>
-								</a>
+							
 								<div id="login_drop" class="head_drop">
 									<div class="hd_pad">
 										<div class="login_pane__info">
 											<div class="avatar">
-												<a href="{profile-link}"><span class="cover" style="background-image: url({foto});">{login}</span></a>
+												<a href="{profile-link}">
+													<img class="user_login_avatar" src="{foto}" alt="{login}">
+													
+													</a>
 											</div>
 											<b class="name"><a href="{profile-link}">{login}</a></b>
 											[admin-link]<div class="login_pane__admin"><a href="{admin-link}" target="_blank">Админпанель</a></div>[/admin-link]
