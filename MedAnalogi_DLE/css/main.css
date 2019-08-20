@@ -922,3 +922,12 @@ h3 img {
 	display: inline-block;
 	color: #202c5c;
 }
+.login_name {
+	float: none;
+	text-align: center;
+	display: block;
+}
+#login_main_btn .user_login_avatar {
+	max-width: 35px;
+	margin-top: -8px;
+}

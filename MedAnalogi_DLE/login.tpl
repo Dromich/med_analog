@@ -99,6 +99,7 @@
 </div>
 
 [group=5]<script>
-$(selector).html(htmlString);
+$('#login_main_btn').html('<img src="{THEME}/img/login.png" alt="login" title="login">');
 </script>[/group]
-[not-group=5]<script></script>[/not-group]
+[not-group=5]<script>
+$('#login_main_btn').html('<img class="user_login_avatar" src="{foto}" alt="login" title="login"> <span class="login_name">{login}</span>');</script>[/not-group]
