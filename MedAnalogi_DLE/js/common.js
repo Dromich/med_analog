@@ -38,6 +38,9 @@ $(function() {
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
 	
 });
+$('#loginModal').on('shown.bs.modal', function () {
+	
+  })
 
 $(window).load(function() {
 
