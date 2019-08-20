@@ -58,42 +58,11 @@
 					<nobr><a href="#">Побочные действия <img src="{THEME}/img/question-mark.png" alt="question-mark"></a>
 					</nobr>
 				</div>
-				{full-story}
+				
 
-			<!--	<div class="col-md-12 fullstory_preparat">
-					<h2>Вступление</h2>
-					<div class="green_line"></div>
 
-					<p>Противовирусное лекарственное средство. Механизм лечебного эффекта связан с блокированием
-						процессов размножения вируса и синтеза белков, необходимых для их жизнедеятельности.</p>
-
-					<p>Всасывание Ремантадина происходит в кишечнике с достаточно низкой скоростью. Обезвреживание
-						препарата происходит в печени, выведение - с помощью почек. Максимальная концентрация
-						наблюдается в носовом секрете.</p>
-
-					<ul>
-						<li>Бактериальная активность:</li>
-						<li>Вирусы гриппа группы А;</li>
-						<li>Вирусы гриппа группы В;</li>
-						<li>Вирус клещевого энцефалита.</li>
-					</ul>
-
-					<h2>Побочные эффекты</h2>
-					<div class="green_line"></div>
-
-					<ul>
-						<li>Нарушения органов чувств (ощущение шума в ушах);</li>
-						<li>Нарушения органов пищеварительной системы (расстройства стула, боли в области желудка,
-							боли в области живота,
-							тошнота, рвота, повышение уровня билирубина, ощущение сухости во рту, снижение
-							аппетита);</li>
-						<li>Нарушения органов дыхательной системы (затруднение дыхания, хрипота);</li>
-						<li>Различные аллергические реакции (кожные высыпания, кожный зуд);</li>
-						<li>Нарушения деятельности нервной системы (нарушения сна, беспричинная тревога, спутанность
-							сознания,
-							рассеивание внимания, головокружение, головные боли, повышение нервной возбудимости,
-							общая усталость).</li>
-					</ul>-->
+				<div class="col-md-12 fullstory_preparat">{full-story}</div>
+			
 
 
 
@@ -110,24 +79,32 @@
 						<span class="rate_preparat">Оцените статью:   <span class="rating_wrap">{rating}</span></span>
 					</div>
 
-					<div class="row related_news">
-						<h2>Вам может быть интересно</h2>
-						<div class="green_line"></div>
+					
 
-						<div class="owl-carousel owl-theme related_news_carusel">
+					
 
 
+				</div>
 
-								{custom  category="1-100"  template="relatednews" available="global" navigation="no" from="0" limit="4" fixed="no" order="date" sort="desc" cache="no"}
+				<div class="row related_news">
+					<h2>Вам может быть интересно</h2>
+					<div class="green_line"></div>
 
+					<div class="owl-carousel owl-theme related_news_carusel">
+
+
+
+							{custom  category="1-100"  template="relatednews" available="global" navigation="no" from="0" limit="4" fixed="no" order="date" sort="desc" cache="no"}
+
+					
 						
-							
 
-
-						</div>
 
 					</div>
-					<div class="coments_wrap row">
+
+				</div>
+
+				<div class="coments_wrap row">
 
 					<div class="coment_title">
 							Комментарии ({comments-num}) [group=5]<span class="enter_login"> Войти <img src="{THEME}/img/social_buttons.png" alt="Login button"></span>[/group]</div>
@@ -139,9 +116,6 @@
 							{comments}
 					</div>
 
-
-
-				</div>
 
 			</div>
 
