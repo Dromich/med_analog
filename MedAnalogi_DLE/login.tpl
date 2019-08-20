@@ -7,7 +7,8 @@
 					<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
 									aria-hidden="true">&times;</span></button>
-							<h4 class="modal-title" id="loginModalLabel">Админпанель</h4>
+									[group=5]<h4 class="modal-title" id="loginModalLabel">Войти</h4>[/group]
+									[not-group=5]<h4 class="modal-title" id="loginModalLabel">Панель пользователя</h4>[/not-group]
 						</div>
 				<div class="modal-body">
 
@@ -35,21 +36,14 @@
 										</div>
 										
 										<div class="login_pane__foot">
-											<a class="right" href="{logout-link}">Выйти</a>
-											<a href="{addnews-link}"><span class="plus_icon">Добавить новость</a>
+											<a  href="{logout-link}">Выйти</a>
+											<a class="add_news" href="{addnews-link}"><span class="plus_icon">Добавить новость</a>
 										</div>
 									</div>
 								</div>
 								[/not-group]
 								[group=5]
-								<a href="#" id="loginbtn" class="h_btn login">
-									<svg class="icon n_ico icon-login"><use xlink:href="#icon-login"></use></svg>
-									<svg class="icon m_ico icon-login_m"><use xlink:href="#icon-login_m"></use></svg>
-									<span class="title_hide">Войти</span>
-									<span class="icon_close">
-										<i class="mt_1"></i><i class="mt_2"></i>
-									</span>
-								</a>
+								
 								<div id="login_drop" class="head_drop">
 									<div class="hd_pad">
 										<form class="login_form" method="post">
@@ -103,3 +97,8 @@
 			</div>
 		</div>
 </div>
+
+[group=5]<script>
+$(selector).html(htmlString);
+</script>[/group]
+[not-group=5]<script></script>[/not-group]
