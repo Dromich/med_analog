@@ -17,23 +17,26 @@
 								<div id="login_drop" class="head_drop">
 									<div class="hd_pad">
 										<div class="login_pane__info">
+												
+												<br>
 											<div class="avatar">
 												<a href="{profile-link}">
-													<img class="user_login_avatar" src="{foto}" alt="{login}">
+													<img class="user_login_avatar" src="{foto}" alt="{login}"></a>							
 													
-													</a>
-											</div>
-											<b class="name"><a href="{profile-link}">{login}</a></b>
-											[admin-link]<div class="login_pane__admin"><a href="{admin-link}" target="_blank">Админпанель</a></div>[/admin-link]
+													<b class="name"><a href="{profile-link}">{login}</a></b>
+											</div>		
+											<ul class="login_pane__menu">
+													<li><a href="{pm-link}">Сообщения <span class="right"><b>{new-pm}</b> из {all-pm}</span></a></li>
+													<li><a href="{favorites-link}">Закладки <span class="right"><b>{favorite-count}</b></span></a></li>
+													<li><a href="{newposts-link}">Непрочитанные новости</a></li>
+													[admin-link]<li><a href="{admin-link}" target="_blank">Админпанель</a></li>[/admin-link]
+												</ul>
+						
 										</div>
-										<ul class="login_pane__menu">
-											<li><a href="{pm-link}">Сообщения <span class="right"><b>{new-pm}</b> из {all-pm}</span></a></li>
-											<li><a href="{favorites-link}">Закладки <span class="right"><b>{favorite-count}</b></span></a></li>
-											<li><a href="{newposts-link}">Непрочитанные новости</a></li>
-										</ul>
+										
 										<div class="login_pane__foot">
-											<a class="right" href="{logout-link}">Выход</a>
-											<a href="{addnews-link}"><span class="plus_icon"><span>+</span></span>Новость</a>
+											<a class="right" href="{logout-link}">Выйти</a>
+											<a href="{addnews-link}"><span class="plus_icon">Добавить новость</a>
 										</div>
 									</div>
 								</div>
