@@ -947,3 +947,12 @@ height: 22px;
 .page_prev a,.page_next a{
 	color: #000;
 }
+.analog_icons_wrap {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.analog_icons_wrap li {
+	display: inline-block;
+	margin: 5px;
+}

@@ -397,6 +397,7 @@ footer {
 /*===CATALOG ANALOGS ==*/
 .analogs_item {
 	margin-top: 50px;
+	padding: 15px;
 }
 
 .analogs_item:nth-child(2n) {
@@ -411,7 +412,9 @@ footer {
 .analog_it_rate_ttl {
 	margin-top: -10px;
 }
-
+.analog_it_rate_ttl a {
+	color: #333;
+}
 .manufacture {
 	margin-top: 24px;
 }
