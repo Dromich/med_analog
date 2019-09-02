@@ -48,23 +48,24 @@
 									<div class="hd_pad">
 										<form class="login_form" method="post">
 											<div class="soc_links">
-												[vk]<a href="{vk_url}" target="_blank" class="soc_vk">
-													<svg class="icon icon-vk"><use xlink:href="#icon-vk"/></svg>
+												<h3>Войти с помощю </h3>
+												[vk]<a class="vk_a" href="{vk_url}" target="_blank" class="soc_vk">
+												
 												</a>[/vk]
 												[yandex]<a href="{yandex_url}" target="_blank" class="soc_ya">
-													<svg class="icon icon-ya"><use xlink:href="#icon-ya"/></svg>
+													
 												</a>[/yandex]
-												[facebook]<a href="{facebook_url}" target="_blank" class="soc_fb">
-													<svg class="icon icon-fb"><use xlink:href="#icon-fb"/></svg>
+												[facebook]<a class="fb_a" href="{facebook_url}" target="_blank" class="soc_fb">
+													
 												</a>[/facebook]
-												[google]<a href="{google_url}" target="_blank" class="soc_gp">
-													<svg class="icon icon-gp"><use xlink:href="#icon-gp"/></svg>
+												[google]<a class="goog_a"  href="{google_url}" target="_blank" class="soc_gp">
+													
 												</a>[/google]
-												[odnoklassniki]<a href="{odnoklassniki_url}" target="_blank" class="soc_od">
-													<svg class="icon icon-od"><use xlink:href="#icon-od"/></svg>
+												[odnoklassniki]<a  class="ok_a" href="{odnoklassniki_url}" target="_blank" class="soc_od">
+													
 												</a>[/odnoklassniki]
-												[mailru]<a href="{mailru_url}" target="_blank" class="soc_mail">
-													<svg class="icon icon-mail"><use xlink:href="#icon-mail"/></svg>
+												[mailru]<a  href="{mailru_url}" target="_blank" class="soc_mail">
+													
 												</a>[/mailru]
 											</div>
 											<ul>
