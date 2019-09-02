@@ -200,24 +200,24 @@
 
 							<div class="row">
 								<!--Здесь нужно указать нужную категорию для вывода а также диапазон новостей 0-4-->
-									{custom  category="1-100"  template="last_news" available="global" navigation="no" from="0" limit="4" fixed="no" order="date" sort="desc" cache="no"}
+									{custom  category="1-100"  template="last_news" available="global" navigation="no" from="0" limit="4" fixed="no" order="rand" sort="rand" cache="no"}
 				
 				
 								</div>
 
 								<div class="row">
 										<!--Здесь нужно указать нужную категорию для вывода а также диапазон новостей from="5"-->
-										{custom  category="1-100"  template="last_news" available="global" navigation="no" from="5" limit="4" fixed="no" order="date" sort="desc" cache="no"}
+										{custom  category="1-100"  template="last_news" available="global" navigation="no" from="5" limit="4" fixed="no" order="rand" sort="rand" cache="no"}
 					
 									</div>
 
 									<div class="row">
 									<!--Здесь нужно указать нужную категорию для вывода а также диапазон новостей from="9"-->
-											{custom  category="1-100"  template="last_news" available="global" navigation="no" from="9" limit="4" fixed="no" order="date" sort="desc" cache="no"}
+											{custom  category="1-100"  template="last_news" available="global" navigation="no" from="9" limit="4" fixed="no" order="rand" sort="rand" cache="no"}
 										</div>
 										<div class="row">
 												<!--Здесь нужно указать нужную категорию для вывода а также диапазон новостей from="9"-->
-														{custom  category="1-100"  template="last_news" available="global" navigation="no" from="13" limit="4" fixed="no" order="date" sort="desc" cache="no"}
+														{custom  category="1-100"  template="last_news" available="global" navigation="no" from="13" limit="4" fixed="no" order="rand" sort="rand" cache="no"}
 													</div>
 										<!--Таких секций можно добавить сколько угодно-->
 

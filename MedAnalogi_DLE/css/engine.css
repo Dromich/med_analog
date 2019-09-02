@@ -956,3 +956,8 @@ height: 22px;
 	display: inline-block;
 	margin: 5px;
 }
+.u {
+	/* float: none; */
+	display: inline-block;
+	font-weight: 600;
+}
