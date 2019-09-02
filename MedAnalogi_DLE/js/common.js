@@ -48,3 +48,16 @@ $(window).load(function() {
 	$(".loader").delay(400).fadeOut("slow");
 
 });
+
+
+
+
+$('.item_catalog a').on( 'click', function(){ 
+   
+    var target = $(this).attr('href'); 
+    $('html').animate({ 
+		scrollTop: $(target).offset().top 
+	}, 800 // скорость прокрутки
+	);
+    return false;
+});
