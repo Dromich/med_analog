@@ -343,6 +343,13 @@ footer {
 
 .alpha_item h4 {
 	height: 16px;
+	color: #102054;
+}
+.alpha_item a {
+	display: inline-block;
+}
+.alpha_item a:hover{
+	text-decoration: none;
 }
 
 .alphabet_main_img {
@@ -378,9 +385,11 @@ footer {
 }
 
 .alpha_item {
-	height: 320px;
+	height: auto;
 	overflow: hidden;
-	margin-top: 59px;
+	margin-top: 25px;
+	text-align: center;
+	padding: 10px;
 }
 
 /*===CATALOG ANALOGS ==*/
