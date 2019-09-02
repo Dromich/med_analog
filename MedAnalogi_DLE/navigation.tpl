@@ -1,11 +1,12 @@
-<div class="block navigation ignore-select col-md-12">
-	<div class="page_next-prev">
-		<span class="page_prev" title="Предыдущая страница">
-			[prev-link]<[/prev-link]
+
+	<div class="block_navigation col-md-12">
+
+
+		<span class="page_prev col-md-3 col-xs-12" title="Предыдущая страница">
+			[prev-link]🡸[/prev-link]
 		</span>
-		<span class="page_next" title="Следующая страница">
-			[next-link]>[/next-link]
+		<div class="pages col-md-6 col-xs-12 ">{pages}</div>
+		<span class="page_next col-md-3 col-xs-12" title="Следующая страница">
+			[next-link]🡺 [/next-link]
 		</span>
 	</div>
-	<div class="pages">{pages}</div>
-</div>

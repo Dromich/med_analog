@@ -916,3 +916,34 @@ height: 22px;
 	display: inline-block;
 	background-repeat: no-repeat;
 }
+.block_navigation {
+	margin: 30px auto;
+	text-align: center;
+}
+.pages{
+	font-family: 'Circe Bold', sans-serif;
+	font-size: 16px;
+}
+.pages span {
+	color: #a8ec15;
+	padding: 10px;
+}
+.pages a {
+	color: #202c5c;
+	padding: 10px;
+}
+.page_prev {
+	padding: 10px;
+	background-color: #a8ec15;
+	border-radius: 20px;
+	width: 100px;
+}
+.page_next {
+	padding: 10px;
+	background-color: #202c5c;
+	border-radius: 20px;
+	width: 100px;
+}
+.page_prev a,.page_next a{
+	color: #000;
+}
