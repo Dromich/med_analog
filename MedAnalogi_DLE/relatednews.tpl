@@ -2,7 +2,7 @@
 		<a href="{link}"> 
 	<div class="overlay_top">
 		<h3>{title}</h3>
-		<p>{text limit="370"}</p>
+		<p>{text limit="200"}</p>
 
 		<div class="post_detail">
 			<span> <img src="{THEME}/img/comment.png" alt="coment"> {comments-num}</span>
