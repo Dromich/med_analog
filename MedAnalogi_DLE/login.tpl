@@ -49,19 +49,19 @@
 										<form class="login_form" method="post">
 											<div class="soc_links">
 												<h3>Войти с помощю </h3>
-												[vk]<a class="vk_a" href="{vk_url}" target="_blank" class="soc_vk">
+												[vk]<a class="vk_a soc_vk" href="{vk_url}" target="_blank" class="">
 												
 												</a>[/vk]
 												[yandex]<a href="{yandex_url}" target="_blank" class="soc_ya">
 													
 												</a>[/yandex]
-												[facebook]<a class="fb_a" href="{facebook_url}" target="_blank" class="soc_fb">
+												[facebook]<a class="fb_a soc_fb" href="{facebook_url}" target="_blank" >
 													
 												</a>[/facebook]
-												[google]<a class="goog_a"  href="{google_url}" target="_blank" class="soc_gp">
+												[google]<a class="goog_a soc_gp"  href="{google_url}" target="_blank" >
 													
 												</a>[/google]
-												[odnoklassniki]<a  class="ok_a" href="{odnoklassniki_url}" target="_blank" class="soc_od">
+												[odnoklassniki]<a  class="ok_a soc_od" href="{odnoklassniki_url}" target="_blank" >
 													
 												</a>[/odnoklassniki]
 												[mailru]<a  href="{mailru_url}" target="_blank" class="soc_mail">
