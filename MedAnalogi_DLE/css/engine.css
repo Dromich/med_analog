@@ -909,3 +909,10 @@ vertical-align: middle;
 width: 22px;
 height: 22px;
 }
+.soc_links a {
+	width: 35px;
+	height: 35px;
+	background-image: url(../img/social_buttons.png);
+	display: inline-block;
+	background-repeat: no-repeat;
+}
