@@ -6,11 +6,36 @@
 			<div class="row analogs_item">
 				<div class="col-md-4 analogs_item_img">
 					<img src="[xfvalue_img]" alt="{title}">
+					
 					<div class="manufacture">
 						[xfgiven_proizvoditel]<span class="manufacturer">Производитель: <span>[xfvalue_proizvoditel]</span> </span>[/xfgiven_proizvoditel]
 						[xfgiven_vipusk]<span class="manufacturer">Формы выпуска: <span>[xfvalue_vipusk]</span> </span>[/xfgiven_vipusk]
 					</div>
 				</div>
+
+				<div class="col-md-8 item_catalog">
+					<ul>
+							<li><a href="#far">Фармакологическое действие</a></li>
+							<li><a href="#poc">Показания к применению</a></li>
+							<li><a href="#use">Способ применения</a></li>
+							<li><a href="#pob">Побочные действия</a></li>
+							<li><a href="#pro">Противопоказания</a></li>
+							<li><a href="#preg">Беременность и лактация</a></li>
+					</ul>
+					<ul>
+							<li><a href="#others">Взаимодействие с другими препаратами</a></li>
+							<li><a href="#over">Передозировка</a></li>
+							<li><a href="#type">Форма выпуска</a></li>
+							<li><a href="#storage">Условия хранения</a></li>
+							<li><a href="#consist">Состав</a></li>
+							<li><a href="#more">Условия отпуска из аптек</a></li> 
+
+					</ul>
+
+
+				</div>
+
+
 				{*<div class="col-md-8 analogs_item_details">
 
 					<div class="analog_it_price_more">
@@ -48,6 +73,9 @@
 
 				</div>*}
 
+
+
+<!-- 
 				<div class="col-md-12 analog_it_iner_puncts">
 
 					<div class="container">
@@ -80,7 +108,7 @@
 					<nobr><a href="#">Побочные действия <img src="{THEME}/img/question-mark.png" alt="question-mark"></a>
 					</nobr>*}
 
-				</div>
+				</div> -->
 				
 
 

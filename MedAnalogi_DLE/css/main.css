@@ -942,6 +942,25 @@ h3 img {
 .goog_a {
 	background-position: -160px;
 }
+.item_catalog ul {
+	display: inline-block;
+	list-style: none;
+}
+.item_catalog {
+	background-color: #e9f3fa;
+	text-align: left;
+	padding: 25px;
+}
+.item_catalog ul li::before {
+	content: "⮑";
+	color: #a8df34;
+	font-size: 23px;	
+	display: inline;
+	padding: 10px;
+}
+.item_catalog a {
+	color: #333;
+}
 
 /*===LOGIN PANEL ===*/
 
