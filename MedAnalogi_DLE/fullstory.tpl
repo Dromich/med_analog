@@ -5,13 +5,13 @@
 		
 			<div class="row analogs_item">
 				<div class="col-md-4 analogs_item_img">
-					<img src="{image-1}" alt="{title}">
+					<img src="[xfvalue_img]" alt="{title}">
 					<div class="manufacture">
-						<span class="manufacturer">Производитель: <span>Олайнфарм (Латвия)</span> </span>
-						<span class="manufacturer">Формы выпуска: <span>Табл. 50 мг, 20 шт.</span> </span>
+						[xfgiven_proizvoditel]<span class="manufacturer">Производитель: <span>[xfvalue_proizvoditel]</span> </span>[/xfgiven_proizvoditel]
+						[xfgiven_vipusk]<span class="manufacturer">Формы выпуска: <span>[xfvalue_vipusk]</span> </span>[/xfgiven_vipusk]
 					</div>
 				</div>
-				<div class="col-md-8 analogs_item_details">
+				{*<div class="col-md-8 analogs_item_details">
 
 					<div class="analog_it_price_more">
 						<img class="yandex_logo" src="{THEME}/img/yandex-market-logo.png" alt="yandex-market">
@@ -46,17 +46,40 @@
 
 
 
-				</div>
+				</div>*}
 
 				<div class="col-md-12 analog_it_iner_puncts">
-					<nobr><a href="#">Фармакологическое действие <img src="{THEME}/img/question-mark.png"
+
+					<div class="container">
+			      <ol class="col-md-3 col-xs-12">
+				      <li><a href="#far">Фармакологическое действие</a></li>
+				      <li><a href="#poc">Показания к применению</a></li>
+				      <li><a href="#use">Способ применения</a></li>
+				      <li><a href="#pob">Побочные действия</a></li>
+				    </ol>
+				    <ol class="col-md-3 col-xs-12">
+				      <li><a href="#pro">Противопоказания</a></li>
+				      <li><a href="#preg">Беременность и лактация</a></li>
+				      <li><a href="#others">Взаимодействие с другими препаратами</a></li>
+				      <li><a href="#over">Передозировка</a></li>
+				    </ol>
+				    <ol class="col-md-3 col-xs-12">
+				      <li><a href="#type">Форма выпуска</a></li>
+				      <li><a href="#storage">Условия хранения</a></li>
+				      <li><a href="#consist">Состав</a></li>
+				      <li><a href="#more">Условия отпуска из аптек</a></li> 
+				    </ol>
+				  </div>
+
+					{*<nobr><a href="#">Фармакологическое действие <img src="{THEME}/img/question-mark.png"
 								alt="question-mark"> </a></nobr>
 					<nobr><a href="#">Показания к применению <img src="{THEME}/img/question-mark.png"
 								alt="question-mark"></a></nobr>
 					<a href="#">Способ применения <img src="{THEME}/img/question-mark.png" alt="question-mark"></a>
 					<a href="#"> Состав <img src="{THEME}/img/question-mark.png" alt="question-mark"></a>
 					<nobr><a href="#">Побочные действия <img src="{THEME}/img/question-mark.png" alt="question-mark"></a>
-					</nobr>
+					</nobr>*}
+
 				</div>
 				
 
@@ -67,7 +90,7 @@
 
 
 					<div class="col-md-12 col-xs-12 preparat_alert">
-						<p>* Инструкция по медицинскому применению к препарату Ремантадин опубликована в свободном
+						<p>* Инструкция по медицинскому применению к препарату {title} опубликована в свободном
 							переводе. <br> ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. ПЕРЕД ПРИМЕНЕНИЕМ НЕОБХОДИМО
 							ПРОКОНСУЛЬТИРОВАТЬСЯ СО СПЕЦИАЛИСТОМ</p>
 					</div>
@@ -76,7 +99,7 @@
 
 					<div class="col-md-12 preparat_social">
 						<span class="social_buttons">
-							<a class="vk_a" href="https://vk.com/share.php?url={full-link}&amp;title={title}&amp;description={title}&amp;image={image-1}&amp;utm_source=share2" rel="nofollow" target="_blank"></a>
+							<a class="vk_a" href="https://vk.com/share.php?url={full-link}&amp;title={title}&amp;description={title}&amp;image=[xfvalue_img]&amp;utm_source=share2" rel="nofollow" target="_blank"></a>
 							<a class="ok_a" href="https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&amp;st.shareUrl={full-link}%23&amp;utm_source=share2"></a>
 							<a class="fb_a" href="https://www.facebook.com/sharer.php?u={full-link}"></a>
 							<a class="tweet_a" href="https://twitter.com/intent/tweet?url={full-link}"></a>
@@ -94,7 +117,7 @@
 
 				</div>
 
-				<div class="row related_news">
+				[related-news]<div class="row related_news">
 					<h2>Вам может быть интересно</h2>
 					<div class="green_line"></div>
 
@@ -102,7 +125,7 @@
 
 
 
-							{custom  category="1-100"  template="relatednews" available="global" navigation="no" from="0" limit="4" fixed="no" order="date" sort="desc" cache="no"}
+							{related-news}
 
 					
 						
@@ -110,7 +133,7 @@
 
 					</div>
 
-				</div>
+				</div>[/related-news]
 
 				<div class="coments_wrap row">
 

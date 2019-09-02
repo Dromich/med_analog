@@ -25,7 +25,7 @@
 	<link rel="stylesheet" href="{THEME}/owlcarousel/owl.theme.green.css">
 
 	<link rel="stylesheet" href="{THEME}/css/fonts.css">
-	<link rel="stylesheet" href="{THEME}/css/main.css">
+	<link rel="stylesheet" href="{THEME}/css/main.css?2">
 	<link rel="stylesheet" href="{THEME}/css/engine.css">
 	<link rel="stylesheet" href="{THEME}/css/media.css">
 
@@ -45,8 +45,8 @@
 			</div>
 			<div class="col-md-8 col-xs-12 top_menu">
 				<a href="#" class="top_menu_items">Препараты от..</a>
-				<a href="#" class="top_menu_items">Медицинские учреждения </a>
-				<a href="#" class="top_menu_items">Вопросы и ответы</a>
+				<a href="#" class="top_menu_items">Все аналоги</a>
+				
 			</div>
 			<div id="login_main_btn" class="col-md-1 col-xs-12 login_top_btn" data-toggle="modal" data-target="#loginModal">
 				<img src="{THEME}/img/login.png" alt="login" title="login">
@@ -65,39 +65,39 @@
 			</div>
 			<div class="col-md-12 col-xs-12">
 				<div class="alphabet_links">
-					<a href="/o-skripte/" class="alpa_items">А</a>
-					<a href="#" class="alpa_items">Б</a>
-					<a href="#" class="alpa_items">В</a>
-					<a href="#" class="alpa_items">Г</a>
-					<a href="#" class="alpa_items">Д</a>
-					<a href="#" class="alpa_items">Е</a>
-					<a href="#" class="alpa_items">Ё</a>
-					<a href="#" class="alpa_items">Ж</a>
-					<a href="#" class="alpa_items">З</a>
-					<a href="#" class="alpa_items">И</a>
-					<a href="#" class="alpa_items">Й</a>
-					<a href="#" class="alpa_items">К</a>
-					<a href="#" class="alpa_items">Л</a>
-					<a href="#" class="alpa_items">М</a>
-					<a href="#" class="alpa_items">Н</a>
-					<a href="#" class="alpa_items">О</a>
-					<a href="#" class="alpa_items">П</a>
-					<a href="#" class="alpa_items">Р</a>
-					<a href="#" class="alpa_items">С</a>
-					<a href="#" class="alpa_items">Т</a>
-					<a href="#" class="alpa_items">У</a>
-					<a href="#" class="alpa_items">Ф</a>
-					<a href="#" class="alpa_items">Х</a>
-					<a href="#" class="alpa_items">Ц</a>
-					<a href="#" class="alpa_items">Ч</a>
-					<a href="#" class="alpa_items">Ш</a>
-					<a href="#" class="alpa_items">Щ</a>
-					<a href="#" class="alpa_items">Ъ</a>
-					<a href="#" class="alpa_items">Ы</a>
-					<a href="#" class="alpa_items">Ь</a>
-					<a href="#" class="alpa_items">Э</a>
-					<a href="#" class="alpa_items">Ю</a>
-					<a href="#" class="alpa_items">Я</a>
+					<a href="/catalog/А/" class="alpa_items">А</a>
+					<a href="/catalog/Б/" class="alpa_items">Б</a>
+					<a href="/catalog/В/" class="alpa_items">В</a>
+					<a href="/catalog/Г/" class="alpa_items">Г</a>
+					<a href="/catalog/Д/" class="alpa_items">Д</a>
+					<a href="/catalog/Е/" class="alpa_items">Е</a>
+					<a href="/catalog/Ё/" class="alpa_items">Ё</a>
+					<a href="/catalog/Ж/" class="alpa_items">Ж</a>
+					<a href="/catalog/З/" class="alpa_items">З</a>
+					<a href="/catalog/И/" class="alpa_items">И</a>
+					<a href="/catalog/Й/" class="alpa_items">Й</a>
+					<a href="/catalog/К/" class="alpa_items">К</a>
+					<a href="/catalog/Л/" class="alpa_items">Л</a>
+					<a href="/catalog/М/" class="alpa_items">М</a>
+					<a href="/catalog/Н/" class="alpa_items">Н</a>
+					<a href="/catalog/О/" class="alpa_items">О</a>
+					<a href="/catalog/П/" class="alpa_items">П</a>
+					<a href="/catalog/Р/" class="alpa_items">Р</a>
+					<a href="/catalog/С/" class="alpa_items">С</a>
+					<a href="/catalog/Т/" class="alpa_items">Т</a>
+					<a href="/catalog/У/" class="alpa_items">У</a>
+					<a href="/catalog/Ф/" class="alpa_items">Ф</a>
+					<a href="/catalog/Х/" class="alpa_items">Х</a>
+					<a href="/catalog/Ц/" class="alpa_items">Ц</a>
+					<a href="/catalog/Ч/" class="alpa_items">Ч</a>
+					<a href="/catalog/Ш/" class="alpa_items">Ш</a>
+					<a href="/catalog/Щ/" class="alpa_items">Щ</a>
+					<a href="/catalog/Ъ/" class="alpa_items">Ъ</a>
+					<a href="/catalog/Ы/" class="alpa_items">Ы</a>
+					<a href="/catalog/Ь/" class="alpa_items">Ь</a>
+					<a href="/catalog/Э/" class="alpa_items">Э</a>
+					<a href="/catalog/Ю/" class="alpa_items">Ю</a>
+					<a href="/catalog/Я/" class="alpa_items">Я</a>
 				</div>
 
 			</div>
@@ -107,7 +107,7 @@
 	<main>
 			
 
-			[not-available=cat|main]
+			[not-available=cat|main|catalog]
 			
 			
 			<div class="container">{speedbar}</div>
@@ -117,7 +117,7 @@
 
 
 
-[available=cat] 
+[available=cat|catalog] 
 
 <section class="alpahbet_cat">
 		<div class="container">
@@ -260,8 +260,8 @@
 				</div>
 				<div class="col-md-8 col-xs-12 top_menu">
 					<a href="#" class="top_menu_items">Препараты от..</a>
-					<a href="#" class="top_menu_items">Медицинские учреждения </a>
-					<a href="#" class="top_menu_items">Вопросы и ответы</a>
+					<a href="#" class="top_menu_items">Все аналоги</a>
+					
 				</div>
 
 			</div>
@@ -276,27 +276,25 @@
 						<a href="#"><img src="{THEME}/img/facebook.png" alt="facebook"></a>
 						<a href="#"><img src="{THEME}/img/odnoklassniki-logo.png" alt="ok"></a>
 						<a href="#"><img src="{THEME}/img/twitter.png" alt="twitter"></a>
-						<a href="#"><img src="{THEME}/img/youtube.png" alt="youtube"></a>
+						<a href="#"><img src="{THEME}/img/123321.png" alt="youtube"></a>
 					</div>
 
 				</div>
 				<div class="col-md-3">
 						<h3>О нас</h3>
 						<div class="about_us">
-							<a href="#">Правила</a>
-							<a href="#">Реклама на сайте</a>
-							<a href="#">Контакты</a>
+							<a href="/o-sajte.html">О нас</a>
+							<a href="/otkaz-ot-otvetstvennosti.html">Отказ от ответсвенности</a>
 							<a href="#">Вакансии</a>
 						</div>
 				</div>
 				<div class="col-md-5">
-					<h3>Тексты</h3>
+					<h3></h3>
 					<p>Перепечатка материалов с сайта возможна только
 							при наличии в первом абзаце текста прямой
 							индексируемой гипперссылки на страницу с
 							оригинальной статьей на наш сайт.</p>
-							<p>Ошибка в тексте? Выделите ее мышкой 
-									и нажмите Ctrl+Enter</p>
+							<p></p>
 				</div>
 			</div>
 			<p id="copyright">2019 © . Мед-аналоги.ру - сайт об аналогах (дженериках) медицинских препаратов.</p>
@@ -305,10 +303,10 @@
 	</footer>
 {login}
 	<div class="hidden"></div>
-
+<!-- 
 	<div class="loader">
 		<div class="loader_inner"></div>
-	</div>
+	</div> -->
 
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
