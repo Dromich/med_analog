@@ -113,11 +113,10 @@
 			<div class="container">
 				{speedbar}
 				
-			[aviable=tagsnew]
-			заголовок для тегов
-			<h1>
-				{include file="engine/modules/tags_meta.php?h1=1"}</h1>
-			<div class="green_line"></div>[/aviable]
+			[aviable=tagsnew]			
+			<h1>{include file="engine/modules/tags_meta.php?h1=1"}</h1>
+			<div class="green_line"></div>
+			[/aviable]
 			
 
 			{info}{content} 
