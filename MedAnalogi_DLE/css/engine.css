@@ -954,26 +954,29 @@ height: 22px;
 	display: inline-block;
 	font-weight: 600;
 }
-.clouds_xsmall {
-	margin: 10px 15px;
-	
+.clouds_xsmall ,.clouds_xlarge , .clouds_small , .clouds_medium {
+	margin: 10px 15px;	
 	display: inline-block;
 	padding: 8px;
 	background-color: #a8ec15;
 	border-radius: 15px;
 }
-.clouds_xsmall a{
+.tagcloud a{
 	color: #333;
 }
-.clouds_xlarge {
-	display: inline-block;
+.clouds_small{
 	padding: 8px;
-	background-color: #202c5c;
-	border-radius: 15px;
 }
-.clouds_xlarge a {
-	color: #d7d5d5;
+.clouds_xsmall{
+padding: 5px;
 }
+.clouds_xlarge {	
+	padding: 16px;
+}
+.clouds_medium{
+	padding: 10px;
+}
+
 /*===ICONS===*/
 .analog_icons_wrap {
 	list-style: none;
@@ -989,7 +992,7 @@ height: 22px;
 	margin: 0 9px 0 0;
 	width: 50px;
 	height: 50px;
-	border-radius: 50%;
+	border-radius: 10px;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
@@ -1001,11 +1004,11 @@ height: 22px;
 	text-align: center;
 }
 .analog_icons_wrap li.red {
-	background-color: #e15249;
+	background-color: #f74343e6;
 }
 .analog_icons_wrap li.orange {
-	background-color: #f39d38;
+	background-color: orange;
 }
 .analog_icons_wrap li.green {
-	background-color: #94c14d;
+	background-color: #a8ec15;
 }
