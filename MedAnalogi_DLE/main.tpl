@@ -33,6 +33,8 @@
 
 	<script src="{THEME}/libs/modernizr/modernizr.js"></script>
 
+
+	
 </head>
 {AJAX}
 <body>
@@ -118,6 +120,11 @@
 			<div class="green_line"></div>
 			[/aviable]
 			
+			[aviable=tags]
+			<h1 id="tags_ttl">Tags</h1>
+			<div class="green_line"></div>
+			[/aviable]
+
 
 			{info}{content} 
 		</div>
@@ -390,6 +397,21 @@
 		})
 	</script>
 	[/available]
+
+	[aviable=tags]
+	<script>
+		$(document).ready(function () {
+			
+			let speedbar = $('#dle-speedbar').text().split('»')
+			$('#tags_ttl').text(speedbar[2]);
+			$('#dle-speedbar').html("<span ><a href=\"http://med-analogi.ru/\" itemprop=\"url\"><span itemprop=\"title\">Мед-аналоги.ру</span></a></span> » <span	itemscope=\"\" itemtype=\"http://data-vocabulary.org/Breadcrumb\"><a href=\"http://med-analogi.ru/tags/\"itemprop=\"url\"><span itemprop=\"title\">Аналоги препаратов</span></a></span> ")
+		});
+		
+		
+		
+		
+	</script>
+	[/aviable]
 </body>
 
 </html>
