@@ -961,3 +961,23 @@ height: 22px;
 	display: inline-block;
 	font-weight: 600;
 }
+.clouds_xsmall {
+	margin: 10px 15px;
+	
+	display: inline-block;
+	padding: 8px;
+	background-color: #a8ec15;
+	border-radius: 15px;
+}
+.clouds_xsmall a{
+	color: #333;
+}
+.clouds_xlarge {
+	display: inline-block;
+	padding: 8px;
+	background-color: #202c5c;
+	border-radius: 15px;
+}
+.clouds_xlarge a {
+	color: #d7d5d5;
+}
