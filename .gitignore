@@ -3,3 +3,4 @@
 data/*
 parser.php
 .gitignore
+php/*

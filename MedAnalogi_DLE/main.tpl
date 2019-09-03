@@ -107,25 +107,34 @@
 	<main>
 			
 
-			[not-available=cat|main|catalog|tagsnew]
+			[not-available=cat|main|catalog]
 			
 			
-			<div class="container">{speedbar}</div>
+			<div class="container">
+				{speedbar}
+				
+			[aviable=tagsnew]
+			заголовок для тегов
+			<h1>
+				{include file="engine/modules/tags_meta.php?h1=1"}</h1>
+			<div class="green_line"></div>[/aviable]
+			
+
 			{info}{content} 
-			
+		</div>
 			[/not-available]
 
 
 
-[available=cat|catalog|tagsnew] 
+[available=cat|catalog] 
 
 <section class="alpahbet_cat">
 		<div class="container">
 				{speedbar}
-				
-			[not-aviable=tagsnew]<h2>{category-title}</h2>[/not-aviable]
 
-			[aviable=tagsnew]<h2>{include file="engine/modules/tags_meta.php?h1=1"}</h2>[/aviable]
+			<h2>{category-title}</h2>
+
+			
 			<div class="green_line"></div>
 			<div class="row">
 					
@@ -255,6 +264,7 @@
 			</div>
 		</section>
 		[/available]
+		
 	</main>
 
 
