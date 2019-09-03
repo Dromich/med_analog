@@ -107,7 +107,7 @@
 	<main>
 			
 
-			[not-available=cat|main|catalog]
+			[not-available=cat|main|catalog|tagsnew]
 			
 			
 			<div class="container">{speedbar}</div>
@@ -117,12 +117,15 @@
 
 
 
-[available=cat|catalog] 
+[available=cat|catalog|tagsnew] 
 
 <section class="alpahbet_cat">
 		<div class="container">
 				{speedbar}
-			<h2>{category-title}</h2>
+				
+			[not-aviable=tagsnew]<h2>{category-title}</h2>[/not-aviable]
+
+			[aviable=tagsnew]<h2>{include file="engine/modules/tags_meta.php?h1=1"}</h2>[/aviable]
 			<div class="green_line"></div>
 			<div class="row">
 					

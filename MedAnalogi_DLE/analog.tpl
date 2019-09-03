@@ -34,7 +34,7 @@
 		
 
 		<div class="col-md-12 col-xs-12 analog_it_description">
-			<p>{short-story limit="120"}</p>
+			<p>{short-story limit="250"}</p>
 		</div>
 
 	</div>
