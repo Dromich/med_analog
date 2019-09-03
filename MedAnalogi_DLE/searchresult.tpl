@@ -1,6 +1,6 @@
 
-<div class="container">
-	<div class="row">
+
+	
 			[searchposts]
 			[fullresult]
 				{include file="shortstory.tpl"}
@@ -39,5 +39,5 @@
 			</div>
 			[/shortresult]
 		[/searchcomments]
-	</div>
-</div>
+	
+

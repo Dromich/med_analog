@@ -1012,3 +1012,10 @@ padding: 5px;
 .analog_icons_wrap li.green {
 	background-color: #a8ec15;
 }
+.search select {
+	display: block;
+	margin: 5px ;
+}
+.search_result_num.grey {
+	margin: 15px auto;
+}

@@ -12,6 +12,10 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.btn, .bbcodes {
+		display: block;
+		margin: 8px !important;
+	}
 	.logo_top a img {
 		display: block;
 	}
