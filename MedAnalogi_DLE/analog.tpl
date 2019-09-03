@@ -10,16 +10,7 @@
 <ul class="analog_icons_wrap">
 		[xfvalue_icons]
 </ul>
-
-			
-			<!-- <img src="img/preg_icon.png" alt="pregnat">
-			<img src="img/mam_baby_icon.png" alt="mam_baby">
-			<img src="img/baby_icon.png" alt="baby">
-			<img src="img/cidne_icon.png" alt="cidne">
-			<img src="img/liver_icon.png" alt="liver">
-			<img src="img/oldman_icon.png" alt="oldman">
-			<img src="img/med_care-Icon.png" alt="medcare"> -->
-
+		
 			<div class="manufacture">
 				<span class="manufacturer">Производитель: <span>[xfvalue_proizvoditel]</span> </span>
 				<span class="manufacturer">Формы выпуска: <span>[xfvalue_vipusk]</span> </span>
