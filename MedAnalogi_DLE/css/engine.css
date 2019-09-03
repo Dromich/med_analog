@@ -947,15 +947,8 @@ height: 22px;
 .page_prev a,.page_next a{
 	color: #000;
 }
-.analog_icons_wrap {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-.analog_icons_wrap li {
-	display: inline-block;
-	margin: 5px;
-}
+
+
 .u {
 	/* float: none; */
 	display: inline-block;
@@ -980,4 +973,39 @@ height: 22px;
 }
 .clouds_xlarge a {
 	color: #d7d5d5;
+}
+/*===ICONS===*/
+.analog_icons_wrap {
+	list-style: none;
+	padding: 0;
+	margin: 0 ;
+	display: table;
+	text-align: center;
+}
+
+.analog_icons_wrap li {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 9px 0 0;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.analog_icons_wrap  li .inner {
+	width: 50px;
+	height: 50px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.analog_icons_wrap li.red {
+	background-color: #e15249;
+}
+.analog_icons_wrap li.orange {
+	background-color: #f39d38;
+}
+.analog_icons_wrap li.green {
+	background-color: #94c14d;
 }
