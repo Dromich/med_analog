@@ -405,6 +405,61 @@
 			let speedbar = $('#dle-speedbar').text().split('»')
 			$('#tags_ttl').text(speedbar[2]);
 			$('#dle-speedbar').html("<span ><a href=\"http://med-analogi.ru/\" itemprop=\"url\"><span itemprop=\"title\">Мед-аналоги.ру</span></a></span> » <span	itemscope=\"\" itemtype=\"http://data-vocabulary.org/Breadcrumb\"><a href=\"http://med-analogi.ru/tags/\"itemprop=\"url\"><span itemprop=\"title\">Аналоги препаратов</span></a></span> ")
+
+			//тайтлы для иконок
+
+			$('.analog_icons_wrap li').each(function (index, element) {
+								
+				switch ($(this).children("div").children("img").attr("src")) {
+					case '/uploads/icons/baby.png':						
+						$(this).attr("title",'Для детей: ' + ChekItem(this))
+						break;
+						case '/uploads/icons/breast.png':
+						$(this).attr("title",'При кормлении грудью: ' + ChekItem(this))
+						break;
+						case '/uploads/icons/lungs.png':
+						$(this).attr("title",'При нарушениях функции почек: ' + ChekItem(this))
+						break;
+						case '/uploads/icons/liver.png':
+						$(this).attr("title",'При нарушениях функции печени: ' + ChekItem(this))
+						break;
+						case '/uploads/icons/man.png':
+						$(this).attr("title",'Пожилым пациентам: ' + ChekItem(this))
+						break;
+						case '/uploads/icons/pregnant.png':
+						$(this).attr("title",'При беременности: ' + ChekItem(this))
+						break;
+				
+					default:
+					$(this).attr("title", ChekItem(this))
+						break;
+				}
+
+			//console.log(ChekItem(this))
+				
+			});
+
+			function ChekItem(li) {				
+				
+				if ($(li).children("div").children("img").attr("src") === '/uploads/icons/nurse.png') {
+
+					if ($(li).hasClass("red")) {
+						return "Условия отпуска: по рецепту"
+					} else {
+						return "Условия отпуска: без рецепта"
+					}
+				} else {
+					if ($(li).hasClass("red")) {
+						return "противопоказан"
+					} else if ($(li).hasClass("orange")) {
+						return "с осторожностю"
+					} else {
+						return "розрешено"
+					}
+				}						
+				
+			}
+			
 		});
 		
 		
