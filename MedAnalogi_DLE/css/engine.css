@@ -292,7 +292,6 @@ position: fixed;
 	opacity: .5;
 }
 .ui-button {
-	float: right;
 	border: 0 none;
 	display: inline-block;
 	vertical-align: middle;
@@ -390,7 +389,7 @@ background-image: linear-gradient(top, #fff 50%, #f8f8f8 100%);
 
 [class^="bb-btn"], [class*=" bb-btn"] {
 	font-family: 'bb-editor-font';
-	speak: none;
+	
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
