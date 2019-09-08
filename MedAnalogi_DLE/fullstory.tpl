@@ -119,8 +119,7 @@
 	</div>
 	<script>
 		$('#dle-content h2').each(function (index, element) {
-			console.log($(this).text().toLowerCase())
-
+			
 			switch ($(this).text().toLowerCase()) {
 				case '1. фармакологическое действие':
 					$(this).attr('id', 'far');
